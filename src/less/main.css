@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: linear-gradient(rgb(253, 220, 197), rgb(253, 192, 149));
+}
+header {
+    background-color: rgb(247, 180, 132);
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid black;
+}
+h1 {
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000;
+    font-style: normal;
+    color: rgb(255, 171, 14);
+    -webkit-text-stroke: 1.5px black;
+}
+p {
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+b {
+    font-weight: 800;
+}
+section {
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(247, 180, 132);
+    border: 3px solid black;
+}
+.section-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Advent Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(255, 171, 14);
+    -webkit-text-stroke: 1.25px black;
+}
+.span-bordered {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.75px;
+}
+.warning-bordered {
+    border: 1px solid rgb(225, 0, 0);
+    background-color: rgb(225, 0, 0);
+    border-radius: 10px;
+    padding: 1.75px;
+}
+section:nth-child(3) ul {
+    list-style: decimal;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 500;
+}
+footer {
+    display: flex;
+    background-color: rgb(247, 180, 132);
+    border-top: 3px solid black;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    h2 {
+        font-family: "Advent Pro", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+}
